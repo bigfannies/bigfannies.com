@@ -1,0 +1,53 @@
+<html>
+  <title>BIGFANNIES . COM (twitch.tv collective)</title>
+  <p style="font-family:helvetica;font-size:47;color:white;">
+	BIGFANNIES . COM &nbsp[twitch.tv collective]</p>
+  <body bgcolor="black">
+    <div id="twitch-embed"></div>
+    <script src= "https://embed.twitch.tv/embed/v1.js"></script>
+    <script type="text/javascript">
+      var parent = ['bigfannies.com', 'www.bigfannies.com', window.location.host];
+
+      var jiggsTV = {
+        width: 800,
+        height: 500,
+        channel: "jiggs_",
+        allowfullscreen: false,
+        layout: "video-with-chat",
+        autoplay: false,
+        parent
+      };
+      var grom0403 = {
+        width: 800,
+        height: 500,
+        channel: "grom0403",
+        allowfullscreen: false,
+        layout: "video-with-chat",
+        autoplay: false,
+        parent
+      };
+      var Quantum_P1 = {
+        width: 800,
+        height: 500,
+        channel: "Quantum_P1",
+        allowfullscreen: false,
+        layout: "video-with-chat",
+        autoplay: false,
+        parent
+      };
+      var NorrinRadd22 = {
+        width: 800,
+        height: 500,
+        channel: "NorrinRadd22",
+        allowfullscreen: false,
+        layout: "video-with-chat",
+        autoplay: false,
+        parent
+      };
+      var player = new Twitch.Embed("twitch-embed", jiggsTV);
+      var player2 = new Twitch.Embed("twitch-embed", grom0403);
+      var player3 = new Twitch.Embed("twitch-embed", Quantum_P1);
+      var player4 = new Twitch.Embed("twitch-embed", NorrinRadd22);
+    </script>
+  </body>
+</html>
